@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 0px auto;
+    box-shadow: 7px 10px rgb(225, 231, 231);
+    margin-bottom: 10px;
+}
+
+img{
+    width: 50%;
+
+}
+
+mat-card {
+    max-width: 250px;
+    margin-top: 150px;
+    margin-left: 75px;
+    text-align: center;
+    max-height: 700px;
+    background-color: rgb(238, 240, 240);
+    color:rgb(37, 37, 223) ;
+}
+
+.full-width {
+    width: 80%;
+}
+.emailInput{
+    padding-top: 10px;
+}
+.passwordInput{
+    padding-bottom: 8px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.labelPass{
+    background-color: beige;
+}
+.loginBtn{
+    border-radius: 15%;
+    background-color: rgb(37, 37, 223);
+    color: aliceblue;
+    box-shadow: 7px 7px rgb(225, 231, 231);
+}
+.registarBtn{
+    border-radius: 11%;
+    background-color: rgb(37, 37, 223);
+    color: aliceblue;
+    box-shadow: 7px 7px rgb(225, 231, 231);
+}
+mat-flat-button:hover{
+    background-color: yellowgreen;
+}

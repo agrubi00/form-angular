@@ -1,0 +1,25 @@
+
+mat-sidenav-content{
+    background-color:white;
+}
+mat-toolbar{
+    background-color: navy;
+    color: white;
+}
+.side{
+    height: auto;
+    width: auto;
+}
+.header{
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    
+    height: 100px;
+    width: 120px;
+    margin-top: -50px;
+}

@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: rgb(37, 37, 223);
+    font-weight: bold;
+}
+img{
+    width: 60%;
+}
+
+mat-card {
+    max-width: 250px;
+    margin-top: 150px;
+    margin-left: 76px;
+    text-align: center;
+    max-height: 800px;
+    background-color: rgb(238, 240, 240);
+    color:rgb(37, 37, 223) ;
+}
+
+.full-width {
+    width: 80%;
+}
+.emailInput{
+    padding-top: 10px;
+}
+.passwordInput{
+    padding-bottom: 8px;
+}
+
+.submit{
+     border-radius: 11%;
+    background-color: rgb(37, 37, 223);
+    color: aliceblue;
+    box-shadow: 7px 7px rgb(225, 231, 231);
+}
+
+.labelPass{
+    background-color: beige;
+}
+

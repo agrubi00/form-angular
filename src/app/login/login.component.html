@@ -1,0 +1,39 @@
+<mat-card>
+    <mat-card-content>
+        <div class="header">
+            <img src="../assets/0aba6579301149.5cbf290c5a8dd.png" alt="logo">
+        </div>
+        <form (ngSubmit)="onLogin()" name="loginForm" [formGroup]="loginForm">
+            <div class="emailInput">
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input formControlName="email" matInput placeholder="Enter email address" required />
+                    <mat-error *ngIf="!loginForm.controls['email'].valid">
+                        Email is required
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="passwordInput">
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label class>Password</mat-label>
+                    <input formControlName="password" matInput [type]=" hide ? 'password' : 'text'" required />
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide Password'"
+                        [attr.aria-pressed]="hide">
+                        <mat-icon>
+                            {{hide ? 'visibility_off' : 'visibility'}}
+                        </mat-icon>
+                    </button>
+                    <mat-error *ngIf="!loginForm.controls['password'].valid">
+                        Password is required
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="buttons">
+                <button mat-flat-button type="submit" routerLink="/home" class="loginBtn">Login</button>
+                <a mat-flat-button routerLink="/registration" class="registarBtn">Registar</a>
+            </div>
+
+        </form>
+
+    </mat-card-content>
+</mat-card>
