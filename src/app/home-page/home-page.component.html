@@ -1,26 +1,20 @@
-<mat-toolbar>
-    <mat-toolbar-row>
-        <button mat-icon-button>
-            <mat-icon (click)="sidenav.toggle();">menu</mat-icon>
-        </button>
-        <h1>HOME PAGE</h1>
-    </mat-toolbar-row>
-</mat-toolbar>
 <mat-sidenav-container>
-    <mat-sidenav #sidenav>
+    <mat-sidenav #sidenav fixedInViewport [mode]="'side'">
         <mat-nav-list>
-            <a mat-list-item>Home</a>
-            <a mat-list-item>About us</a>
-            <a mat-list-item>Services</a>
-            <a mat-list-item>Contact us</a>
+            <a mat-list-item [routerLink]= "['actuators']" role="navigation">Actuators</a>
+            <a mat-list-item [routerLink]="['graphs']" role="navigation">Graphs</a>
+            <a mat-list-item [routerLink]="['dashboard']" role="navigation">My Actuators</a>
+            <a mat-list-item [routerLink]="['groups']" role="navigation">Groups</a>
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>
-        <div class="side"></div>
-        <div class="header">
-            <img src="../assets/smile.png" alt="logo">
-        </div>
+        <mat-toolbar>
+            <mat-toolbar-row>
+                <button mat-icon-button>
+                    <mat-icon (click)="sidenav.toggle();">menu</mat-icon>
+                </button>
+            </mat-toolbar-row>
+        </mat-toolbar>
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>
-
-        

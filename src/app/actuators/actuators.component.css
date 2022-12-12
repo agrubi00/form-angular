@@ -1,0 +1,17 @@
+
+h1{
+   text-align: center;
+   margin-top: 100px;
+   margin-left: 75px;
+   color: rgb(92, 92, 255);
+   font-weight: bold;
+   text-transform: uppercase;
+}
+.mainBtn {
+    border: 1px solid rgb(92, 92, 255);
+    width: 100px;
+    margin-left: 210px;
+    box-shadow: 7px 7px rgb(225, 231, 231);
+    color: rgb(92, 92, 255);
+    font-weight: bold;
+}

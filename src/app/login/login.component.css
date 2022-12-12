@@ -15,7 +15,7 @@ img{
 mat-card {
     max-width: 250px;
     margin-top: 150px;
-    margin-left: 75px;
+    margin-left: 90px;
     text-align: center;
     max-height: 700px;
     background-color: rgb(238, 240, 240);
@@ -50,7 +50,4 @@ mat-card {
     background-color: rgb(37, 37, 223);
     color: aliceblue;
     box-shadow: 7px 7px rgb(225, 231, 231);
-}
-mat-flat-button:hover{
-    background-color: yellowgreen;
 }

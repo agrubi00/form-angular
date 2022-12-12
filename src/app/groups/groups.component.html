@@ -1,0 +1,6 @@
+<div class="groupN" style="margin-bottom: 20px" *ngFor="let groups of newGroup, let i = index">
+      <span class="nn">  {{groups[i].name}}:</span>
+        <div class="itemN" style="margin-left: 20px" *ngFor="let item of groups">
+                {{item.name}}
+
+        </div>

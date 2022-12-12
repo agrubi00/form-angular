@@ -1,0 +1,31 @@
+.nameInput{
+    padding-top: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.submitBtn{
+    border-radius: 15%;
+    background-color: rgb(37, 37, 223);
+    color: aliceblue;
+    box-shadow: 7px 7px rgb(225, 231, 231);
+    margin-top: 10px;
+}
+.checbox {
+    margin: 5px 12px;
+  }
+.graphCheck {
+    margin: 12px 10px;
+}
+.dashboardCheck {
+    margin-right: 10px;
+}
+
+mat-form-field{
+    display: inline-flex;
+    align-items: baseline;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 17px;
+}

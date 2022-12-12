@@ -33,7 +33,7 @@ onLogin() {
     .login(this.loginForm.value.email, this.loginForm.value.password)
     .subscribe((user) => {
       if (user) {
-        this.router.navigate(['/home']);  
+        this.router.navigate(['/home/dashboard']);  
       }
       this.logIn = true;
       this.isValidUser = user;

@@ -7,19 +7,13 @@ mat-toolbar{
     color: white;
 }
 .side{
-    height: auto;
+    height: 800px;
     width: auto;
 }
 .header{
     display: flex;
-    height: 750px;
     justify-content: center;
     align-items: center;
+    width: 750px;
 }
 
-img{
-    
-    height: 100px;
-    width: 120px;
-    margin-top: -50px;
-}

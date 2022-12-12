@@ -18,6 +18,14 @@ import {MatListModule} from '@angular/material/list';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { GraphsComponent } from './graphs/graphs.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { GroupsComponent } from './groups/groups.component';
+import { ActuatorsComponent } from './actuators/actuators.component';
+import { MatDialogModule} from '@angular/material/dialog';
+import { PopUpComponent } from './pop-up/pop-up.component'
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import {MatTableModule} from '@angular/material/table'
 
 
 
@@ -28,6 +36,13 @@ import { HomePageComponent } from './home-page/home-page.component';
     LoginComponent,
     RegistrationComponent,
     HomePageComponent,
+   
+       GraphsComponent,
+        DashboardComponent,
+        GroupsComponent,
+        ActuatorsComponent,
+        PopUpComponent,
+
 
   ],
   imports: [
@@ -41,7 +56,11 @@ import { HomePageComponent } from './home-page/home-page.component';
     MatIconModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatDialogModule,
+    MatCheckboxModule,
+    MatTableModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
